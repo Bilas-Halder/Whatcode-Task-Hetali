@@ -1,0 +1,28 @@
+.hr_line{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.sqr_logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.sqr_logo img{
+    width: 100%;
+    height: 100%;
+}
+.before_sqr_logo, .after_sqr_logo{
+    content: "";
+    position: absolute;
+    top: calc(50% - 5px);
+    right: calc(100% + 30px);
+    height: 5px;
+    transition: all 0.25s ease-in;
+}
+
+.after_sqr_logo{
+    left: calc(50px + 30px );
+    /* 50px is the width of the logo */
+}

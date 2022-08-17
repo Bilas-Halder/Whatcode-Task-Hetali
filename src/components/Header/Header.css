@@ -25,6 +25,7 @@
     border: none;
     background-color: transparent;
 }
+
 .nav-btn::before{
     content: "";
     position: absolute;
@@ -32,10 +33,16 @@
     left: 0%;
     height: 2px;
     width: 30%;
-    background: rgb(16,74,128);
-    background: linear-gradient(95deg, rgba(16,74,128,1) 0%, rgba(76,190,234,1) 100%);
+    background: #104a80;
+    background: linear-gradient(95deg, #104a80 0%, #4cbeea 100%);
     transition: all 0.25s ease-in;
 }
 .nav-btn:hover{
     color: #00a79e;
+}
+
+@media screen and (max-width: 991px){
+    .nav-btn::before{
+        left: 35%;
+    }
 }
