@@ -1,0 +1,41 @@
+.custom-nav{
+    height: 70px;
+    background-color: white;
+}
+.logo-div{
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-div img{
+    width: 100%;
+}
+
+.nav-btn{
+    position: relative;
+    color: #00a79e;
+    margin: 0px 1rem !important;
+    padding: 0.5rem 0px !important; 
+    font-size: 14px !important;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    border: none;
+    background-color: transparent;
+}
+.nav-btn::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    height: 2px;
+    width: 30%;
+    background: rgb(16,74,128);
+    background: linear-gradient(95deg, rgba(16,74,128,1) 0%, rgba(76,190,234,1) 100%);
+    transition: all 0.25s ease-in;
+}
+.nav-btn:hover{
+    color: #00a79e;
+}
