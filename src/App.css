@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Pacifico&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap");
 
 body {
   font-family: "Pacifico", cursive;
@@ -11,4 +11,5 @@ body {
 .sec_title {
   font-size: 32px;
   font-weight: 400;
+  font-family: "Cinzel", serif;
 }
