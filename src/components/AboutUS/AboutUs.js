@@ -11,7 +11,7 @@ import AboutCard from "./AboutCard";
 const AboutUs = (props) => {
   return (
     <>
-      <div className="about w-100 text-center my-4">About Us</div>
+      <div className="sec_title w-100 text-center my-4">About Us</div>
       <HRLine />
       <div className="about_banner">
         <img src={aboutBanner} alt="" />
