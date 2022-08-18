@@ -21,6 +21,7 @@
   right: calc(100% + 20px);
   height: 5px;
   transition: all 0.25s ease-in;
+  border-radius: 5px;
 }
 
 .after_sqr_logo {
