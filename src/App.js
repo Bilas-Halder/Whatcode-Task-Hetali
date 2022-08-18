@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutUs from "./components/AboutUS/AboutUs";
+import GroupCompanies from "./components/GroupCompanies/GroupCompanies";
 import Header from "./components/Header/Header";
 import Message from "./components/Message/Message";
 import Mission from "./components/Mission/Mission";
@@ -15,6 +16,7 @@ function App() {
       <Mission />
       <Responsibility />
       <Message />
+      <GroupCompanies />
     </>
   );
 }
